@@ -8,6 +8,9 @@ security:
             memory: ~
         fos_userbundle:
             id: fos_user.user_provider.username
+        github_user_provider:
+            id: github_user_provider
+
     encoders:
             FOS\UserBundle\Model\UserInterface: bcrypt
 
@@ -30,12 +33,20 @@ security:
 
             # form_login: ~
             # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
-            pattern: ^/
+            pattern: ^/admin
+            stateless: false
+            simple_preauth:
+                authenticator: github_authenticator
+                provider: github_user_provider
+                logout:
+                  path: /admin/logout
+                  target: /
             form_login:
                 provider: fos_userbundle
                 csrf_token_generator: security.csrf.token_manager
                 # if you are using Symfony < 2.8, use the following config instead:
                 # csrf_provider: form.csrf_provider
+
 
             logout:       true
             anonymous:    true
