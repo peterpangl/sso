@@ -8,8 +8,6 @@ security:
             memory: ~
         fos_userbundle:
             id: fos_user.user_provider.username
-        github_user_provider:
-            id: github_user_provider
 
     encoders:
             FOS\UserBundle\Model\UserInterface: bcrypt
