@@ -33,14 +33,7 @@ security:
 
             # form_login: ~
             # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
-            pattern: ^/admin
-            stateless: false
-            simple_preauth:
-                authenticator: github_authenticator
-                provider: github_user_provider
-                logout:
-                  path: /admin/logout
-                  target: /
+            pattern: ^/
             form_login:
                 provider: fos_userbundle
                 csrf_token_generator: security.csrf.token_manager
