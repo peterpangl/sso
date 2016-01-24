@@ -12,6 +12,12 @@ edfa8a,127.0.0.1,GET,http://localhost:8000/app_dev.php/register/,1453627590,,200
 8ebb13,127.0.0.1,GET,http://localhost:8000/app_dev.php/login/register,1453627708,,404
 ee20e1,127.0.0.1,GET,http://localhost:8000/app_dev.php/register,1453627715,,301
 5a587f,127.0.0.1,GET,http://localhost:8000/app_dev.php/register/,1453627715,,200
+<<<<<<< HEAD
+240e14,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1453650144,,200
+daaad9,127.0.0.1,GET,http://localhost:8000/,1453652672,,200
+0b4d7b,127.0.0.1,GET,http://localhost:8000/app_dev.php/,1453652697,,200
+e9da4e,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1453655408,,200
+=======
 0ce1cf,127.0.0.1,GET,http://127.0.0.1:8000/dev_app.php,1453653562,bd55ba,200
 bd55ba,127.0.0.1,GET,http://127.0.0.1:8000/dev_app.php,1453653562,,404
 8ab816,127.0.0.1,GET,http://127.0.0.1:8000/dev_app.php/login,1453653579,e8fe5f,200
@@ -35,5 +41,9 @@ a7d1e3,127.0.0.1,POST,http://localhost:8000/app_dev.php/login_check,1453653846,,
 2a0b5f,127.0.0.1,POST,http://localhost:8000/app_dev.php/login_check,1453653861,,302
 3af6ae,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1453653861,,200
 827827,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1453653952,,200
+<<<<<<< HEAD
 f9e341,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1453656206,,200
 b36591,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1453656209,,200
+=======
+>>>>>>> 2a559873704c16887c66494c7a8af09900bcebb3
+>>>>>>> dfa62a7a9a3293160f80a72f247d9cc68d63090f
