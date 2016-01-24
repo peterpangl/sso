@@ -12,3 +12,7 @@ edfa8a,127.0.0.1,GET,http://localhost:8000/app_dev.php/register/,1453627590,,200
 8ebb13,127.0.0.1,GET,http://localhost:8000/app_dev.php/login/register,1453627708,,404
 ee20e1,127.0.0.1,GET,http://localhost:8000/app_dev.php/register,1453627715,,301
 5a587f,127.0.0.1,GET,http://localhost:8000/app_dev.php/register/,1453627715,,200
+240e14,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1453650144,,200
+daaad9,127.0.0.1,GET,http://localhost:8000/,1453652672,,200
+0b4d7b,127.0.0.1,GET,http://localhost:8000/app_dev.php/,1453652697,,200
+e9da4e,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1453655408,,200
