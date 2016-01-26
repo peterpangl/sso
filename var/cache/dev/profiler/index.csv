@@ -41,4 +41,9 @@ a7d1e3,127.0.0.1,POST,http://localhost:8000/app_dev.php/login_check,1453653846,,
 2a0b5f,127.0.0.1,POST,http://localhost:8000/app_dev.php/login_check,1453653861,,302
 3af6ae,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1453653861,,200
 827827,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1453653952,,200
+<<<<<<< HEAD
+f9e341,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1453656206,,200
+b36591,127.0.0.1,GET,http://localhost:8000/app_dev.php/login,1453656209,,200
+=======
 >>>>>>> 2a559873704c16887c66494c7a8af09900bcebb3
+>>>>>>> dfa62a7a9a3293160f80a72f247d9cc68d63090f
