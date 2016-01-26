@@ -132,3 +132,6 @@
 [2016-01-24 18:45:52] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
 [2016-01-24 18:45:52] request.INFO: Matched route "_wdt". {"route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"827827","_route":"_wdt"},"request_uri":"http://localhost:8000/app_dev.php/_wdt/827827"} []
 >>>>>>> 2a559873704c16887c66494c7a8af09900bcebb3
+[2016-01-26 23:19:32] doctrine.DEBUG: "START TRANSACTION" [] []
+[2016-01-26 23:19:32] doctrine.DEBUG: INSERT INTO fos_user (username, username_canonical, email, email_canonical, enabled, salt, password, last_login, locked, expired, expires_at, confirmation_token, password_requested_at, roles, credentials_expired, credentials_expire_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) {"1":"testuser","2":"testuser","3":"test@example.com","4":"test@example.com","5":true,"6":"poyvy4dwo4gg0wc0k48c4c8g8sogcsg","7":"$2y$13$aiObL41sZYgU5M9K58r [...]","8":null,"9":false,"10":false,"11":null,"12":null,"13":null,"14":[],"15":false,"16":null} []
+[2016-01-26 23:19:32] doctrine.DEBUG: "ROLLBACK" [] []
